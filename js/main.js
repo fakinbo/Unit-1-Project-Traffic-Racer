@@ -2,7 +2,7 @@
     console.log("Up and Running!");
     var obstacleCountTop = 1;
     var obstacleCountBottom = 0;
-    var level = 2;
+    var level = 1;
     var carSpeed = 6000 - level * 1000; //1000 = 1sec
     var countDown = 3;
     var lives = 3;
@@ -45,12 +45,12 @@
         if (level === 3) {
         $('#gamePlay').attr('src','audio/adrenaline.m4a');    
         document.getElementById('gamePlay').play();      
-        $('#gamePlay').prop("volume", 0.7);  
+        $('#gamePlay').prop("volume", 1.0);  
         document.getElementById('gamePlay').loop = true;
         }else if(level === 1){
             $('#gamePlay').attr('src','audio/gamePlay.mp3');    
             document.getElementById('gamePlay').play();  
-            $('#gamePlay').prop("volume", 0.7);
+            $('#gamePlay').prop("volume", 0.5);
         document.getElementById('gamePlay').loop = true;
         }
         $('.level').text(`LEVEL: ${level}`)//update level being displayed to user
@@ -147,7 +147,7 @@
                     console.log("car hit Obstacle 2 in top lane!!");
                     document.getElementById('policeSiren').play();
                     document.getElementById('crash').play();
-                    $('#policeSiren').prop("volume", 0.8);
+                    $('#policeSiren').prop("volume", 0.7);
                     endGame(false);
                 }
             }
