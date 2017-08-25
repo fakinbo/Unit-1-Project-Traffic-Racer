@@ -194,7 +194,7 @@
                     endGame(false);
                 }
             }
-        }, 75);
+        }, 300);
     }
     // this function adds to the score based on the level you're on and lives you have
     function addScore(params) {
