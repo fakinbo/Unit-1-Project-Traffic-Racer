@@ -24,13 +24,7 @@ body{
     left: 39vw;
     top: 3px;
 }
-.logo2{
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    right: 38vw;
-    top: 3px;
-}
+
 .titleWrapper{
     position: absolute;
     top: 0;
@@ -106,7 +100,7 @@ h1{
 }
 .rules p{
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 7px;
 }
 .stats{
