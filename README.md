@@ -1,4 +1,6 @@
 # Traffic Racer Description
+[App on Github Pages](https://fakinbo.github.io/Unit-1-Project-Traffic-Racer/)
+
 You find yourself facing oncoming traffic, your goal is to get past the obstales and cross the finish line to the next level. Good Luck!
 # Technologies used.
 Every aspect of my game was hard coded in javascript and css
