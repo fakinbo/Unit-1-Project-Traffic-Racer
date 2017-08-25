@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Project1</title>
+</head>
+
+<body>
+    <div class="titleWrapper"></div>
+    <h1 class="title">TRAFFIC RACER</h1>
+    <h2 class="controlsTitle">CONTROLS</h2>
+    <img class = "logo" src="media/gameLogo.png" alt="traffic light">
+    <img class = "logo2" src="media/gameLogo.png" alt="traffic light">
+    <img class = "controls" src="media/instructions.png" alt="controls">
+    <p class="finishLine">Next &nbsp Level</p>
+    <div class="stats">
+        <h1 class="score">SCORE: 0</h1>
+        <h1 class="level">LEVEL: 1</h1>
+        <h1 class="lives">LIVES:&nbsp 3</h1>
+    </div>
+    <div class="rules">
+            <h1 class="instructions">Instructions</h1>
+            <p class="description">
+                You are facing oncoming traffic, your goal is to get past the obstales and cross the finish line to the next level. Good Luck!
+            </p>
+    </div>
+    <div class="gameboard">
+        <div class="obstacleWrapper">
+            <img class="obstacle" id="obstacle1" src="media/carObstacle1.png" alt="car">
+        </div>
+
+        <img id="userCar" src="media/car.png" alt="car">
+        <div class="buttons">
+            <button class="start" type="">START</button>
+            <button class="reset" type="">RESET</button>
+        </div>
+        <div>
+            <h1 class="countdown">3</h1>
+        </div>
+    </div>
+    <div class="road">
+    </div>
+    <div class="roadLine">
+    </div>
+    <audio id="policeSiren" src="audio/siren.wav"></audio> 
+    <audio id="countdown3" src="audio/countdown3.wav"></audio> 
+    <audio id="countdown2" src="audio/countdown2.wav"></audio> 
+    <audio id="countdown1" src="audio/countdown1.wav"></audio> 
+    <audio id="go" src="audio/go.wav"></audio> 
+    <audio id="gameLost" src="audio/gameLost.mp3"></audio> 
+    <audio id="engine" src="audio/engine1.wav"></audio> 
+    <audio id="levelUp" src="audio/levelUp.wav"></audio> 
+    <audio id="gamePlay" src="audio/gamePlay.mp3"></audio> 
+    <audio id="chicken" src="audio/chicken.wav"></audio> 
+    <audio id="horn" src="audio/horn.wav"></audio> 
+    <audio id="crash" src="audio/crash.wav"></audio> 
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

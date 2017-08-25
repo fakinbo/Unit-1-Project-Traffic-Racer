@@ -1,0 +1,186 @@
+#userCar{
+    position: absolute;
+    height: 75px;
+    width: 150px;
+    top: 400px;
+    left: 0;
+    z-index: 2;
+}
+.controls{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 70px;
+    left: 80px;
+    z-index: -1;
+}
+body{
+    /* background: wheat; */
+}
+.logo{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 39vw;
+    top: 3px;
+}
+.logo2{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 38vw;
+    top: 3px;
+}
+.titleWrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2A2AEA;
+    height: 47px;
+    width: 100vw;
+    z-index: -1;
+}
+.controlsTitle{
+    position: absolute;
+    top: 26px;
+    left: 140px;
+    text-decoration: underline;
+}
+.start,.reset{
+    width: 10vw;
+    height: 2vw;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 3vh;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.score{
+    margin-top: 15px;
+}
+h1{
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+.countdown{
+    font-size: 3.5rem;
+    color: red;
+    display: none;
+    margin-left: 48vw;
+    margin-top: 5px;
+}
+.buttons{
+    margin-left: 40vw;
+}
+.start{
+    background: #0D9F0D;
+}
+.reset{
+    background: tomato;
+}
+
+.title{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 42vw;
+    color: white;
+}
+
+.instructions{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+.rules{
+    position: absolute;
+    height: 205px;
+    width: 25vw;
+    right: 23px;;
+    top: 51px;
+    border: 2px solid black;
+    background: gray;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+.rules p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 7px;
+}
+.stats{
+    height: 205px;
+    width: 35vw;
+    border: 2px solid black;
+    background: gray;
+    color: white;
+    border-radius: 15px;
+    margin-left: 30vw;
+    margin-top: 5px;
+    letter-spacing: 5px;
+}
+.obstacle{
+        position: absolute;
+        height: 75px;
+        width: 150px;
+        right: 0vw;
+        top: 400px;
+        z-index: 2;
+}
+#obstacle1{
+    display: none;    
+}
+.obstacle2{
+    position: absolute;
+    height: 75px;
+    width: 150px;
+    right: 0vw;
+    top: 480px;
+}
+#obstacle4,#obstacle6{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    right: 0vw;
+    top: 480px;
+}
+.gameboard{
+    z-index: 1;
+}
+.road{
+    z-index: -1;
+    background: gray;
+    position: absolute;
+    height: 154px;
+    width: 100vw;
+    right: 0px;
+    top: 400px;
+    border: 4px solid black;
+}
+.roadLine{
+    z-index: -1;
+    position: absolute;
+    height: 10px;
+    width: 100vw;
+    right: 0px;
+    top: 476px;
+    border-top: 4px dashed yellow;
+}
+.finishLine{
+    font-size: 1.7rem;
+    z-index: 0;
+    position: absolute;
+    height: 30px;
+    width: 144px;
+    right: -58px;
+    top: 435px;
+    color: white;
+    font-weight: bold;
+    background: green;
+    padding-left: 11px;
+    border-top: 4px solid yellow;
+    border-bottom: 4px solid yellow;
+    box-sizing: content-box;
+    transform: rotate(90deg)
+}
